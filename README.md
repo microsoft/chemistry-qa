@@ -1,8 +1,5 @@
 # ChemistryQA Data
 
-In the real world, there are QA tasks which cannot be solved by end-to-end neural networks and is very difficult to translate the natural language to any kind of formal representation which can be solved. Solving Chemical Calculation Problems is such a QA task. We collect about 5,000 chemical calculation problems from SOCRATIC.ORG, which cover more than 200 topic in chemistry. Unlike other QA datasets, we propose to only label the variable asked and conditions from question stem, but do not label the complex solving process. We name the dataset as ChemistryQA. To encourage other researchers to explore various solutions, we keep this task weakly supervised.
-
-
 ## Data
 
 >Data
@@ -23,7 +20,7 @@ where answer_predict.tsv should contain both correct answer and predicted answer
 
 ## Contact us
 
-Please send email to chemistry_qa@microsoft.com.
+Please send email to chemistry_qa@microsoft.com if you have any problem.
 
 ## Contributing
 
