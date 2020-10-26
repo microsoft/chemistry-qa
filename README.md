@@ -1,15 +1,5 @@
 # ChemistryQA Data
 
-## Data
-
->Data
-
->>train.tsv
-
->>dev.tsv
-
->>test.tsv
-
 ## Evaluation
 
 Please use evaluate.py to evaluate the result as following.
