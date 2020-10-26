@@ -1,14 +1,29 @@
-# Project
+# ChemistryQA Data
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+In the real world, there are QA tasks which cannot be solved by end-to-end neural networks and is very difficult to translate the natural language to any kind of formal representation which can be solved. Solving Chemical Calculation Problems is such a QA task. We collect about 5,000 chemical calculation problems from SOCRATIC.ORG, which cover more than 200 topic in chemistry. Unlike other QA datasets, we propose to only label the variable asked and conditions from question stem, but do not label the complex solving process. We name the dataset as ChemistryQA. To encourage other researchers to explore various solutions, we keep this task weakly supervised.
 
-As the maintainer of this project, please make a few updates:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Data
+
+>Data
+
+>>train.tsv
+
+>>dev.tsv
+
+>>test.tsv
+
+## Evaluation
+
+Please use evaluate.py to evaluate the result as following.
+```
+python evaluate.py {answer_predict.tsv} {answer_index} {predict_index}
+```
+where answer_predict.tsv should contain both correct answer and predicted answer by your method, and answer_index and predict_index represent the columne number of correct answer and predicted answer, respectively. 
+
+## Contact us
+
+Please send email to chemistry_qa@microsoft.com.
 
 ## Contributing
 
@@ -31,3 +46,4 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
