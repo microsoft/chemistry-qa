@@ -1,4 +1,15 @@
 # ChemistryQA Data
+ChemistryQA is a complex QA task which cannot be solved by end-to-end neural networks. To answer chemical questions, machines need to understand questions, apply chemistry and math knowledge, and do calculation and reasoning. ChemistryQA contains about 4500 questions covering around 200 chemistry topics, which are collected from https://socratic.org/chemistry. 
+
+## Data
+
+>Data
+
+>>train.tsv
+
+>>dev.tsv
+
+>>test.tsv
 
 ## Evaluation
 
