@@ -47,4 +47,4 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 
 ## License
 
-We follow the [Computational Use of Data Agreement](https://github.com/microsoft/Computational-Use-of-Data-Agreement).
+[Computational Use of Data Agreement](https://github.com/microsoft/Computational-Use-of-Data-Agreement).
